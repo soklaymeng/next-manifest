@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: next-serv
-          image: mengsoklay/nextjs:21
+          image: mengsoklay/nextjs:22
           ports:
             - containerPort: 3001
