@@ -3,19 +3,19 @@ kind: Deployment
 metadata:
   name: nextjs-deployment
   labels:
-    app: next-serv
+    app: nextjs
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: next-serv
+      app: nextjs
   template:
     metadata:
       labels:
-        app: next-serv
+        app: nextjs
     spec:
       containers:
-        - name: next-serv
+        - name: nextjs-container
           image: mengsoklay/nextjs:24
           ports:
             - containerPort: 3000
