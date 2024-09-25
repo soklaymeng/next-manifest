@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: nextjs-container
-          image: mengsoklay/nextjs:24
+          image: mengsoklay/nextjs:25
           ports:
             - containerPort: 3000
